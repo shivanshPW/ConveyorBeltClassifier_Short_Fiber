@@ -8,7 +8,7 @@
     {
       "level": 1,
       "objective_text": "Sort substances into Acid, Base, or Neutral beakers!",
-      "conveyor_speed_modifier": 0.5,
+      "conveyor_speed_modifier": 0.8,
       "total_items_in_level": 10,
       "item_spawn_interval_seconds": 6,
       "xp_per_correct": 5,
