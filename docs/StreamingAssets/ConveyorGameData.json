@@ -1,0 +1,278 @@
+{
+  "game_template": "Conveyor Classifier",
+  "topic": "Acids, Bases, and Salts",
+  "total_levels": 3,
+  "max_total_xp": 200,
+  
+  "levels": [
+    {
+      "level": 1,
+      "objective_text": "Sort substances into Acid, Base, or Neutral beakers!",
+      "conveyor_speed_modifier": 0.5,
+      "total_items_in_level": 10,
+      "item_spawn_interval_seconds": 6,
+      "xp_per_correct": 5,
+      "xp_per_incorrect": -2,
+      "combo_bonus_xp": 0,
+      "target_xp": 50,
+      "reactor": 0,
+
+      "containers": [
+        { "name": "Natural", "id": "Natural" },
+        { "name": "Synthethic", "id": "Synthethic" }
+      ],
+
+      "items": [
+        {
+          "id": "cotton",
+          "display_text": "cotton",
+          "correct_category_name": "Natural",
+          "presentation_mode": "NAME"
+        },
+        {
+          "id": "linen",
+          "display_text": "linen",
+          "correct_category_name": "Natural",
+          "presentation_mode": "NAME"
+        },
+        {
+          "id": "Silk",
+          "display_text": "Silk",
+          "correct_category_name": "Natural",
+          "presentation_mode": "NAME"
+        },
+        {
+          "id": "rayon",
+          "display_text": "rayon",
+          "correct_category_name": "Synthethic",
+          "presentation_mode": "NAME"
+        },
+        {
+          "id": "wool",
+          "display_text": "wool",
+          "correct_category_name": "Natural",
+          "presentation_mode": "NAME"
+        },
+        {
+          "id": "jute",
+          "display_text": "jute",
+          "correct_category_name": "Natural",
+          "presentation_mode": "NAME"
+        },
+        {
+          "id": "acrylic",
+          "display_text": "acrylic",
+          "correct_category_name": "Synthethic",
+          "presentation_mode": "NAME"
+        },
+        {
+          "id": "nylon",
+          "display_text": "nylon",
+          "correct_category_name": "Synthethic",
+          "presentation_mode": "NAME"
+        },
+        {
+          "id": "polyester",
+          "display_text": "polyester",
+          "correct_category_name": "Synthethic",
+          "presentation_mode": "NAME"
+        },
+        {
+          "id": "spandex",
+          "display_text": "spandex",
+          "correct_category_name": "Synthethic",
+          "presentation_mode": "NAME"
+        }
+      ]
+    },
+
+    {
+      "level": 2,
+      "objective_text": "Observe the reactions and sort substances correctly!",
+      "conveyor_speed_modifier": 0.8,
+      "total_items_in_level": 10,
+      "item_spawn_interval_seconds": 5,
+      "xp_per_correct": 7,
+      "xp_per_incorrect": -3,
+      "combo_bonus_xp": 0,
+      "target_xp": 70,
+      "reactor": 1,
+
+      "containers": [
+        { "name": "Natural", "id": "Natural1" },
+        { "name": "Synthethic", "id": "Synthethic1" }
+      ],
+      "items": [
+        {
+          "id": "cashmere",
+          "display_text": "From Goat",
+          "correct_category_name": "Natural",
+          "presentation_mode": "PROPERTY_CUE",
+          "reaction_type": "NO_REACTION"
+        },
+        {
+          "id": "terlene",
+          "display_text": "Polyester",
+          "correct_category_name": "Synthethic",
+          "presentation_mode": "PROPERTY_CUE",
+          "reaction_type": "NO_REACTION"
+        },
+        {
+          "id": "coir",
+          "display_text": "From Coconut",
+          "correct_category_name": "Natural",
+          "presentation_mode": "PROPERTY_CUE",
+          "hint_text": "No litmus change?"
+        },
+        {
+          "id": "hem",
+          "display_text": "From Plant",
+          "correct_category_name": "BASE",
+          "presentation_mode": "PROPERTY_CUE",
+          "reaction_type": "PH_INDICATOR_RED"
+        },
+        {
+          "id": "vis",
+          "display_text": "Regenerated Fibre",
+          "correct_category_name": "Synthethic",
+          "presentation_mode": "PROPERTY_CUE",
+          "reaction_type": "PH_INDICATOR_BLUE"
+        },
+        {
+          "id": "kev",
+          "display_text": "Polymer",
+          "correct_category_name": "Synthethic",
+          "presentation_mode": "PROPERTY_CUE",
+          "reaction_type": "PH_INDICATOR_GREEN"
+        },
+        {
+          "id": "leather",
+          "display_text": "From Animal",
+          "correct_category_name": "Natural",
+          "presentation_mode": "PROPERTY_CUE",
+          "hint_text": "Sour taste indicator?"
+        },
+        {
+          "id": "dar",
+          "display_text": "Polyester",
+          "correct_category_name": "Synthethic",
+          "presentation_mode": "PROPERTY_CUE",
+          "hint_text": "Bitter taste indicator?"
+        },
+        {
+          "id": "bamboo",
+          "display_text": "from Plant",
+          "correct_category_name": "Natural",
+          "presentation_mode": "PROPERTY_CUE",
+          "reaction_type": "NO_REACTION"
+        },
+        {
+          "id": "neo",
+          "display_text": "Rubber",
+          "correct_category_name": "Synthethic",
+          "presentation_mode": "PROPERTY_CUE",
+          "reaction_type": "METAL_BUBBLES"
+        }
+      ]
+    },
+
+    {
+      "level": 3,
+      "objective_text": "Expert sorting: Identify weak and strong acids/bases by image alone!",
+      "conveyor_speed_modifier": 0.8,
+      "total_items_in_level": 10,
+      "item_spawn_interval_seconds": 9,
+      "xp_per_correct": 8,
+      "xp_per_incorrect": -4,
+      "combo_bonus_xp": 0,
+      "target_xp": 80,
+      "reactor": 0,
+
+      "containers": [
+        { "name": "ANIMAL-BASED", "icon": "weak_acid_beaker.png" },
+        { "name": "PLANT-BASED","icon": "strong_acid_beaker.png" },
+        { "name": "SEMI-SYNTHETIC","icon": "weak_base_beaker.png" },
+        { "name": "FULLY-SYNTHETIC","icon": "strong_base_beaker.png" }
+        ],
+
+      "items": [
+        {
+          "id": "denim",
+          "display_text": "",
+          "correct_category_name": "PLANT-BASED",
+          "presentation_mode": "IMAGE_ONLY"
+        },
+        {
+          "id": "FishLine",
+          "display_text": "",
+          "correct_category_name": "FULLY-SYNTHETIC",
+          "presentation_mode": "IMAGE_ONLY"
+        },
+        {
+          "id": "flax",
+          "display_text": "",
+          "correct_category_name": "PLANT-BASED",
+          "presentation_mode": "IMAGE_ONLY"
+        },
+        {
+          "id": "fleece",
+          "display_text": "",
+          "correct_category_name": "FULLY-SYNTHETIC",
+          "presentation_mode": "IMAGE_ONLY"
+        },
+        {
+          "id": "Mohair",
+          "display_text": "",
+          "correct_category_name": "ANIMAL-BASED",
+          "presentation_mode": "IMAGE_ONLY"
+        },
+        {
+          "id": "mylar",
+          "display_text": "",
+          "correct_category_name": "FULLY-SYNTHETIC",
+          "presentation_mode": "IMAGE_ONLY"
+        },
+        {
+          "id": "Paper",
+          "display_text": "",
+          "correct_category_name": "PLANT-BASED",
+          "presentation_mode": "IMAGE_ONLY"
+        },
+        {
+          "id": "SilkWormCocoon",
+          "display_text": "",
+          "correct_category_name": "ANIMAL-BASED",
+          "presentation_mode": "IMAGE_ONLY"
+        },
+        {
+          "id": "brush",
+          "display_text": "",
+          "correct_category_name": "FULLY-SYNTHETIC",
+          "presentation_mode": "IMAGE_ONLY"
+        },
+        {
+          "id": "wetsuit",
+          "display_text": "",
+          "correct_category_name": "FULLY-SYNTHETIC",
+          "presentation_mode": "IMAGE_ONLY"
+        }
+      ]
+    }
+  ],
+
+  "star_rating_thresholds": {
+    "3_stars": 0.8,
+    "2_stars": 0.5,
+    "1_star": 0.0
+  },
+
+  "reaction_types_available": [
+    "LITMUS_RED",
+    "LITMUS_BLUE", 
+    "PH_INDICATOR_RED",
+    "PH_INDICATOR_BLUE",
+    "PH_INDICATOR_GREEN",
+    "METAL_BUBBLES",
+    "NO_REACTION"
+  ]
+}
