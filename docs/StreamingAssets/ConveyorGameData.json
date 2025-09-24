@@ -18,8 +18,8 @@
       "reactor": 0,
 
       "containers": [
-        { "name": "Natural", "id": "Natural" },
-        { "name": "Synthethic", "id": "Synthethic" }
+        { "name": "Synthetic", "id": "Synthethic" },
+        { "name": "Natural", "id": "Natural" }
       ],
 
       "items": [
@@ -44,7 +44,7 @@
         {
           "id": "rayon",
           "display_text": "rayon",
-          "correct_category_name": "Synthethic",
+          "correct_category_name": "Synthetic",
           "presentation_mode": "NAME"
         },
         {
@@ -62,25 +62,25 @@
         {
           "id": "acrylic",
           "display_text": "acrylic",
-          "correct_category_name": "Synthethic",
+          "correct_category_name": "Synthetic",
           "presentation_mode": "NAME"
         },
         {
           "id": "nylon",
           "display_text": "nylon",
-          "correct_category_name": "Synthethic",
+          "correct_category_name": "Synthetic",
           "presentation_mode": "NAME"
         },
         {
           "id": "polyester",
           "display_text": "polyester",
-          "correct_category_name": "Synthethic",
+          "correct_category_name": "Synthetic",
           "presentation_mode": "NAME"
         },
         {
           "id": "spandex",
           "display_text": "spandex",
-          "correct_category_name": "Synthethic",
+          "correct_category_name": "Synthetic",
           "presentation_mode": "NAME"
         }
       ]
@@ -99,8 +99,8 @@
       "reactor": 1,
 
       "containers": [
-        { "name": "Natural", "id": "Natural1" },
-        { "name": "Synthethic", "id": "Synthethic1" }
+        { "name": "Synthetic", "id": "Synthethic1" },
+        { "name": "Natural", "id": "Natural1" }
       ],
       "items": [
         {
@@ -113,7 +113,7 @@
         {
           "id": "terlene",
           "display_text": "Polyester",
-          "correct_category_name": "Synthethic",
+          "correct_category_name": "Synthetic",
           "presentation_mode": "PROPERTY_CUE",
           "reaction_type": "NO_REACTION"
         },
@@ -134,14 +134,14 @@
         {
           "id": "vis",
           "display_text": "Regenerated Fibre",
-          "correct_category_name": "Synthethic",
+          "correct_category_name": "Synthetic",
           "presentation_mode": "PROPERTY_CUE",
           "reaction_type": "PH_INDICATOR_BLUE"
         },
         {
           "id": "kev",
           "display_text": "Polymer",
-          "correct_category_name": "Synthethic",
+          "correct_category_name": "Synthetic",
           "presentation_mode": "PROPERTY_CUE",
           "reaction_type": "PH_INDICATOR_GREEN"
         },
@@ -155,7 +155,7 @@
         {
           "id": "dar",
           "display_text": "Polyester",
-          "correct_category_name": "Synthethic",
+          "correct_category_name": "Synthetic",
           "presentation_mode": "PROPERTY_CUE",
           "hint_text": "Bitter taste indicator?"
         },
@@ -169,7 +169,7 @@
         {
           "id": "neo",
           "display_text": "Rubber",
-          "correct_category_name": "Synthethic",
+          "correct_category_name": "Synthetic",
           "presentation_mode": "PROPERTY_CUE",
           "reaction_type": "METAL_BUBBLES"
         }
