@@ -127,7 +127,7 @@
         {
           "id": "hem",
           "display_text": "From Plant",
-          "correct_category_name": "BASE",
+          "correct_category_name": "Natural",
           "presentation_mode": "PROPERTY_CUE",
           "reaction_type": "PH_INDICATOR_RED"
         },
